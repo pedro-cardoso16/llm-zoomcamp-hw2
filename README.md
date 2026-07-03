@@ -6,7 +6,7 @@ The below code will setup the environment. In order to run, you need `python3`
 with `pip` installed in the system.  
 Execute the following in a codespace (recommended) or in your system.
 
->You can execute `setup.sh` which will do all the mecessary setup:
+>You can execute `setup.sh` which will do all the necessary setup:
 >```bash 
 >chmod +x setup.sh && ./setup.sh
 >``` 
