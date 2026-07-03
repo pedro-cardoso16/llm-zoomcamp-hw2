@@ -1,16 +1,15 @@
 # llm-zoomcamp-hw2
-My submitted homework 2 assignment on the DataTalks.Club llm-zoomcamp-2026 course.
+This is my submission for Homework 2 in the DataTalks.Club llm-zoomcamp-2026 course.
 
 ## Setup
-The below code will setup the environment. In order to run, you need `python3` 
-with `pip` installed in the system.  
-Execute the following in a codespace (recommended) or in your system.
+The code below will set up the environment needed to run. You need Python 3 with pip installed on your system.
+Execute the following in a Codespace (recommended) or on your system.
 
->You can execute `setup.sh` which will do all the necessary setup:
->```bash 
+>You can run `setup.sh`, which performs all necessary setup:
+>```bash
 >chmod +x setup.sh && ./setup.sh
->``` 
->or follow the steps below: 
+>```
+>or follow the steps below:
 
 ```bash
 python -m venv --prompt=llm-zoomcamp-hw2 .venv
@@ -21,8 +20,7 @@ uv add onnxruntime tokenizers numpy tqdm minsearch gitsource
 uv add --dev huggingface-hub jupyter
 ```
 
-Once this is done, as shown in the homework assignment, we download the 
-necessary files. Run:
+Once this is done (as shown in the homework assignment), download the necessary files by running:
 
 ```bash
 PREFIX=https://raw.githubusercontent.com/DataTalksClub/llm-zoomcamp/main/02-vector-search/embed
