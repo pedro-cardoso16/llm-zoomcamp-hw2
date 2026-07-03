@@ -1,4 +1,3 @@
-mkdir llm-zoomcamp-hw2 && cd llm-zoomcamp-hw2
 python -m venv --prompt=llm-zoomcamp-hw2 .venv
 source .venv/bin/activate
 pip install uv
@@ -10,5 +9,3 @@ PREFIX=https://raw.githubusercontent.com/DataTalksClub/llm-zoomcamp/main/02-vect
 wget $PREFIX/download.py
 wget $PREFIX/embedder.py
 uv run python download.py
-
-mv ../llm-zoomcamp-hw2.ipynb ./
