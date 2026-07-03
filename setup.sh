@@ -1,4 +1,4 @@
-python -m venv --prompt=llm-zoomcamp-hw2 .venv
+python3 -m venv --prompt=llm-zoomcamp-hw2 .venv
 source .venv/bin/activate
 pip install uv
 uv init --no-workspace
