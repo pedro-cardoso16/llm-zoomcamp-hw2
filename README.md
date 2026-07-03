@@ -2,7 +2,7 @@
 My submitted homework 2 assignment on the DataTalks.Club llm-zoomcamp-2026 course.
 
 ## Setup
-The below code will setup the environment in order to run, you need `python3` 
+The below code will setup the environment. In order to run, you need `python3` 
 with `pip` installed in the system.  
 Execute the following in a codespace (recommended) or in your system.
 
